@@ -106,9 +106,106 @@
 # print(a ** b + c ** d)
 
 
-a = int(input())
-print(a + a * 11 + a * 111)
+# a = int(input())
+# print(a + a * 11 + a * 111)
 
-git config --global user.name "t0gets" 
-git config --global user.email "pst0gets@gmail.com"
+# git config --global user.name "t0gets"
+# git config --global user.email "pst0gets@gmail.com"
 
+
+# password, password2 = input("Пароль: "), input("Повторите пароль: ")
+# if password == password2:
+#     print("Пароль принят")
+# else:
+#     print("Пароль не принят")
+
+
+# num = int(input("Введите число: "))
+# if num % 2 == 0:
+#     print("Число четное")
+# else:
+#     print("Число нечетное")
+
+
+# year = int(input("Сколько вам полных лет: "))
+# if year >= 18:
+#     print("Доступ разрешен")
+# else:
+#     print("Доступ запрещен")
+
+
+# num1, num2 = int(input("Введите первое число: ")), int(input("Введите второе число: "))
+# if num1 > num2:
+#     print(num2)
+# else:
+#     print(num1)
+
+
+# num1, num2, num3 = int(input("Введите первое число: ")), int(input("Введите второе число: ")), int(input("Введите третье число: "))
+# raznitsa1 = num1 - num2
+# raznitsa2 = num2 - num3
+# if raznitsa1 == raznitsa2:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# num = int(input("Введите число четырехзначное: "))
+# if ((num // 10**3) % 10) + (num % 10) == ((num // 10**2) % 10) - ((num // 10**1) % 10):
+#     print("ДА")
+# else:
+#     print("НЕТ")
+
+
+# che1, che2, che3 = int(input("Введите первое число: ")), int(input("Введите второе число: ")), int(input("Введите третье число: "))
+# if che1 > 0:
+#     che1 = che1
+# else:
+#     che1 = 0
+# if che2 > 0:
+#     che2 = che2
+# else:
+#     che2 = 0
+# if che3 > 0:
+#     che3 = che3
+# else:
+#     che3 = 0
+# print("Сумма положительных чисел =", che1 + che2 + che3)
+
+
+# ОБА ПРАВИЛЬНО УРАААА
+
+# year = int(input("Введите ваш возраст: "))
+# if year <= 13:
+#     print("детство")
+# else:
+#     if 14 <= year <= 24:
+#         print("молодость")
+#     else:
+#         if 25 <= year <= 59:
+#             print("зрелость")
+#         else:
+#             if year >= 60:
+#                 print("старость")
+
+# year = int(input())
+# if year <=13:
+#     print("детство") 
+# if year >= 14 and year <= 24:
+#     print("молодость")
+# if year >= 25 and year <= 59:
+#     print("зрелость")
+# if year >= 60:
+#     print("старость")
+
+
+
+num1, num2, num3, num4 = int(input("Введите первое число: ")), int(input("Введите второе число: ")), int(input("Введите третье число: ")), int(input("Введите четвертое число: "))
+if num1 <= num2 and num1 <= num3 and num1 <= num4: 
+    print(num1)
+elif num2 <= num1 and num2 <= num3 and num2 <= num4:
+    print(num2)
+elif num3 <= num1 and num3 <= num2 and num3 <= num4:
+    print(num3) 
+else:
+    print(num4)

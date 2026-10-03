@@ -276,16 +276,53 @@
 #     print("NO")
 
 
-x = int(input())  # king по этим координатам
-y = int(input())
-x2 = int(input())  # может ли пререйти на эти координаты
-y2 = int(input())
-if (
-    (x2 == x + 1 or x2 == x - 1)
-    and (y2 == y + 1 or y2 == y - 1)
-    or (x2 == x and (y2 == y + 1 or y2 == y - 1))
-    or (y2 == y and (x2 == x + 1 or x2 == x - 1))
-):
-    print("YES")
+# x = int(input())  # king по этим координатам
+# y = int(input())
+# x2 = int(input())  # может ли пререйти на эти координаты
+# y2 = int(input())
+# if (
+#     (x2 == x + 1 or x2 == x - 1)
+#     and (y2 == y + 1 or y2 == y - 1)
+#     or (x2 == x and (y2 == y + 1 or y2 == y - 1))
+#     or (y2 == y and (x2 == x + 1 or x2 == x - 1))
+# ):
+#     print("YES")
+# else:
+#     print("NO")
+
+
+
+# angle = int(input("Введите угол в градусах: "))
+
+# if angle % 90 == 0:
+#     if angle == 0:
+#         print('Нулевой')
+#     elif angle == 90:
+#         print('Прямой')
+#     elif angle == 180:
+#         print('Развёрнутый')
+# else:
+#     if 0 < angle < 90:
+#         print('Острый')
+#     elif 90 < angle < 180:
+#         print('Тупой')
+#     elif 180 < angle < 270:
+#         print('Выпуклый')
+#     else:
+#         print('Ни острый, ни тупой, ни выпуклый')
+
+# n, k = int(input()), int(input())
+# if n > k:
+#     print("NO")
+# elif n < k:
+#     print("YES")
+# else:
+#     print("Don't know")
+
+a, b, c = int(input()), int(input()), int(input())
+if a == b == c:
+    print("Равносторонний")
+elif a == b or a == c or b == c:
+    print("Равнобедренный")
 else:
-    print("NO")
+    print("Разносторонний")

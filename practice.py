@@ -190,7 +190,7 @@
 
 # year = int(input())
 # if year <=13:
-#     print("детство") 
+#     print("детство")
 # if year >= 14 and year <= 24:
 #     print("молодость")
 # if year >= 25 and year <= 59:
@@ -199,13 +199,93 @@
 #     print("старость")
 
 
+# num1, num2, num3, num4 = int(input("Введите первое число: ")), int(input("Введите второе число: ")), int(input("Введите третье число: ")), int(input("Введите четвертое число: "))
+# if num1 <= num2 and num1 <= num3 and num1 <= num4:
+#     print(num1)
+# elif num2 <= num1 and num2 <= num3 and num2 <= num4:
+#     print(num2)
+# elif num3 <= num1 and num3 <= num2 and num3 <= num4:
+#     print(num3)
+# else:
+#     print(num4)
 
-num1, num2, num3, num4 = int(input("Введите первое число: ")), int(input("Введите второе число: ")), int(input("Введите третье число: ")), int(input("Введите четвертое число: "))
-if num1 <= num2 and num1 <= num3 and num1 <= num4: 
-    print(num1)
-elif num2 <= num1 and num2 <= num3 and num2 <= num4:
-    print(num2)
-elif num3 <= num1 and num3 <= num2 and num3 <= num4:
-    print(num3) 
+# !!!!!!!!!!вот они min max
+# che = int(input("Сколько чисел будем сравнивать? "))
+# nums = [int(input(f"Введите число {i}: ")) for i in range(1, che + 1)]
+# print("Наименьшее число:", min(nums))
+
+
+# river1 = 'Нева'
+# river2 = 'Инд'
+
+# print(river1 == 'Буг' and river2 != 'Одер' or river1 == 'Нева')
+# print(river1 != 'Эльба' and river1 != 'Сена' and river1 != 'Инд')
+
+
+# x = int(input())
+# if -1 < x < 17:
+#     print("Принадлежит")
+# else:
+#     print("Не принадлежит")
+
+
+# x = int(input())
+# if -3 >= x or x >= 7:
+#     print("Принадлежит")
+# else:
+#     print("Не принадлежит")
+
+
+# x = int(input())
+# if -30 < x <= -2 or 7 < x <= 25:
+#     print("Принадлежит")
+# else:
+#     print("Не принадлежит")
+
+
+# x = int(input())
+# if 1000 <= x <= 9999 and (x % 7 == 0 or x % 17 == 0):
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a + c > b and a + b > c and b + c > a:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# year = int(input())
+# if year % 4 == 0 and year % 100 != 0 or year % 400 == 0:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# x = int(input()) # ладья по этим координатам
+# y = int(input())
+# x2 = int(input()) # может ли пререйти на эти координаты
+# y2 = int(input())
+# if x == x2 and 1<= y2 <= 8 or y == y2 and 1<= x2 <= 8:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+x = int(input())  # king по этим координатам
+y = int(input())
+x2 = int(input())  # может ли пререйти на эти координаты
+y2 = int(input())
+if (
+    (x2 == x + 1 or x2 == x - 1)
+    and (y2 == y + 1 or y2 == y - 1)
+    or (x2 == x and (y2 == y + 1 or y2 == y - 1))
+    or (y2 == y and (x2 == x + 1 or x2 == x - 1))
+):
+    print("YES")
 else:
-    print(num4)
+    print("NO")

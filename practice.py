@@ -291,7 +291,6 @@
 #     print("NO")
 
 
-
 # angle = int(input("Введите угол в градусах: "))
 
 # if angle % 90 == 0:
@@ -319,10 +318,217 @@
 # else:
 #     print("Don't know")
 
-a, b, c = int(input()), int(input()), int(input())
-if a == b == c:
-    print("Равносторонний")
-elif a == b or a == c or b == c:
-    print("Равнобедренный")
-else:
-    print("Разносторонний")
+# a, b, c = int(input()), int(input()), int(input())
+# if a == b == c:
+#     print("Равносторонний")
+# elif a == b or a == c or b == c:
+#     print("Равнобедренный")
+# else:
+#     print("Разносторонний")
+
+# a = int(input())
+# b = int(input())
+# c = int(input())
+# if a < b < c or c < b < a:
+#     print(b)
+# elif b < c < a or a < c < b:
+#     print(c)
+# elif c < a < b or b < a < c:
+#     print(a)
+
+# month = int(input("Введите номер месяца: "))
+# if month == 12 or month == 5 or month == 1 or month == 3 or month == 7 or month == 8 or month == 10:
+#     print("31")
+# elif month == 4 or month == 6 or month == 9 or month == 11:
+#     print("30")
+# elif month == 2:
+#     print("28")
+
+
+# ves = int(input("Введите вес: "))
+# if ves < 60:
+#     print("Легкий вес")
+# elif ves < 64:
+#     print("Первый полусредний вес")
+# elif ves < 69:
+#     print("Полусредний вес")
+
+
+# a = int(input("Введите число: "))
+# b = int(input("Введите число: "))
+# sim = input("Введите знак: ")
+# if sim == "+":
+#     print(a + b)
+# elif sim == "-":
+#     print(a - b)
+# elif sim == "*":
+#     print(a * b)
+# elif sim == "/":
+#     if b == 0:
+#         print("На ноль делить нельзя!")
+#     elif b != 0:
+#         print(a / b)
+# else:
+#     print("Неверная операция")
+
+
+# a = input()
+# b = input()
+# if a == b == "красный":
+#     print("красный")
+# elif a == b == "синий":
+#     print("синий")
+# elif a == b == "желтый":
+#     print("желтый")
+# elif (a == "красный" and b == "синий") or (a == "синий" and b == "красный"):
+#     print("фиолетовый")
+# elif (a == "красный" and b == "желтый") or (a == "желтый" and b == "красный"):
+#     print("оранжевый")
+# elif (a == "синий" and b == "желтый") or (a == "желтый" and b == "синий"):
+#     print("зеленый")
+# else:
+#     print("ошибка цвета")
+
+
+# a = int(input("Введите число: "))
+# if a == 0:
+#     print("зеленый")
+# elif 1 <= a <= 10:
+#     if a % 2 == 0:
+#         print("черный")
+#     if a % 2 != 0:
+#         print("красный")
+# elif 11 <= a <= 18:
+#     if a % 2 == 0:
+#         print("красный")
+#     if a % 2 != 0:
+#         print("черный")
+# elif 19 <= a <= 28:
+#     if a % 2 == 0:
+#         print("черный")
+#     if a % 2 != 0:
+#         print("красный")
+# elif 29 <= a <= 36:
+#     if a % 2 == 0:
+#         print("красный")
+#     if a % 2 != 0:
+#         print("черный")
+# else:
+#     print("ошибка ввода")
+
+
+# a = int(input())
+# b = int(input())
+# a2 = int(input())
+# b2 = int(input())
+
+# if a > a2:
+#     left = a
+# else:
+#     left = a2
+
+# if b < b2:
+#     right = b
+# else:
+#     right = b2
+
+# if left > right:
+#     print("пустое множество")
+# elif left == right:
+#     print(left)
+# else:
+#     print(left, right)
+
+
+# year = int(input())
+# if (year // 10**0) % 10 == 0 and (year // 10**1) % 10 == 0:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+# if (x1 in [1, 3, 5, 7] and y1 in [1, 3, 5, 7]) or (x1 in [2, 4, 6, 8] and y1 in [2, 4, 6, 8]):
+#     color1 = "светлый"
+# else:
+#     color1 = "темный"
+# if (x2 in [1, 3, 5, 7] and y2 in [2, 4, 6, 8]) or (x2 in [2, 4, 6, 8] and y2 in [1, 3, 5, 7]):
+#     color2 = "темный"
+# else:
+#     color2 = "светлый"
+
+# if color1 == color2:
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# year = int(input())
+# pol = input()
+# if 10 <= year <=15 and pol == "f":
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# num = int(input())
+# if num == 1:
+#     print("I")
+# elif num == 2:
+#     print("II")
+# elif num == 3:
+#     print("III")
+# elif num == 4:
+#     print("IV")
+# elif num == 5:
+#     print("V")
+# elif num == 6:
+#     print("VI")
+# elif num == 7:
+#     print("VII")
+# elif num == 8:
+#     print("VIII")
+# elif num == 9:
+#     print("IX")
+# elif num == 10:
+#     print("X")
+# else:
+#     print("ошибка")
+
+# num = int(input())
+# romans = ["", "I", "II", "III", "IV", "V", "VI", "VII", "VIII", "IX", "X"]
+# if 1 <= num <= 10:
+#     print(romans[num])
+# else:
+#     print("ошибка")
+
+
+# a = int(input())
+# if a % 2 != 0:
+#     print("YES")
+# elif a % 2 == 0:
+#     if 2 <= a <= 5:
+#         print("NO")
+#     elif 6 <= a <= 20:
+#         print("YES")
+#     elif a > 20:
+#         print("NO")
+
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+# if (x1 + y1 == x2 + y2) or (x1 - y1 == x2 - y2):
+#     print("YES")
+# else:
+#     print("NO")
+
+
+# if abs(x1 - x2) == abs(y1 - y2):
+#     print("YES")
+# else:
+#     print("NO")
+
+# x1, y1, x2, y2 = int(input()), int(input()), int(input()), int(input())
+# if ((x2 == x1 + 2 or x2 == x1 - 2) and (y2 == y1 + 1 or y2 == y1 - 1)) or ((y2 == y1 + 2 or y2 == y1 - 2) and (x2 == x1 - 1 or x2 == x1 + 1)):
+#     print("YES")
+# else:
+#     print("NO")

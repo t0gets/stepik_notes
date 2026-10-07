@@ -532,3 +532,58 @@
 #     print("YES")
 # else:
 #     print("NO")
+
+
+# a = float(input())
+# b = float(input())
+# print(a * b * 0.5)
+
+# s = float(input())
+# a1 = float(input())
+# a2 = float(input())
+# print(s / (a1 + a2))
+
+# a = float(input())
+# if a == 0:
+#     print("Обратного числа не существует")
+# else:
+#     print(a ** -1)
+
+# far = float(input())
+# print((far - 32) * 5 / 9)
+
+# year = int(input())
+# if year <= 2:
+#     print(year * 10.5)
+# else:
+#     print((year - 2) * 4 + 10.5 * 2)
+
+# a = float(input())
+# print(a % int(a))
+
+# a = float(input())
+# b = (a - int(a)) *10
+# print(int(b))
+
+# a = list(int(input()) for i in range(5))
+# print("Наименьшее число =", min(a))
+# print("Наибольшее число =", max(a))
+
+
+# a = [float(input()) for i in range(5)]
+# print(sum(map(abs, a)))
+
+# total = sum(abs(float(input())) for _ in range(5))
+# print(total)
+
+# a_min, a_mid, a_max = map(int, sorted(input()))
+# if a_max - a_min == a_mid:
+#     print("Число интересное")
+# else:
+#     print("Число неинтересное")
+
+# nums = sorted([int(input()) for _ in range(3)], reverse=True)
+# print(*nums, sep='\n')
+
+# p1, p2, q1, q2 = int(input()), int(input()), int(input()), int(input())
+# print(abs(p1 - q1) + abs(p2 - q2))
